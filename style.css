@@ -1,0 +1,706 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main1{
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+    background-image: linear-gradient(rgba(1,2,3,0.5),rgba(1,2,3,0.5)),url(gb1\ \(21\).jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.nav{
+padding: 0.7rem;
+
+
+
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 3rem;
+    cursor: pointer;
+    
+
+}
+.link{
+display: flex;
+list-style: none;
+padding: 0.5rem;
+
+
+}
+.link li a{
+    color: white;
+    margin-left: 2rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+
+
+}
+
+.link2{
+    padding: 0.5rem;
+padding-right: 3rem;
+display: flex;
+list-style: none;
+}
+.link2 li a{
+color: white;
+padding-right: 4rem;
+text-decoration: none;
+font-size: 1.1rem;
+
+
+}
+li a:hover{
+    color:orange;
+}
+.min2{
+    height: 20rem;
+    width: 50rem;
+    background-color: transparent;
+    color: white;
+    margin: 0 auto;
+    margin-top: 7rem;
+    text-align: center;
+
+}
+.heading1 h1{
+font-size:2rem;
+cursor: pointer;
+
+}
+.btn1 button{
+height: 2rem;
+width: 7rem;
+border-radius: 0.5rem;
+border-style: none;
+cursor: pointer;
+
+}
+.btn1 button:hover{
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    transition: all 1s;
+}
+
+                                         /* main2 */
+
+.main2{
+    height: 35rem;
+    width: 78.9rem;
+    /* background-color: royalblue; */
+    margin-top: 3rem;
+    
+}
+.heading2{
+    text-align: center;
+    font-size: 2rem;
+    
+    
+}
+
+.heading2 h1{
+    color:black;
+    cursor: pointer;
+}
+.twodiv{
+    display: flex;
+    margin-top: 3rem;
+
+    
+}
+
+.img1{
+    height: 28rem;
+    width: 40rem;
+    background-image: url(gb1\ \(1\).png);
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-position:3rem;
+    cursor: pointer;
+    
+    
+}
+.form1{
+    height: 28rem;
+    width: 38rem;
+    /* background-color: gray; */
+}
+
+.in1{
+cursor: pointer;
+}
+.in2 input{
+height: 4rem;
+width: 38rem;
+background-color: rgba(0, 0, 0, 0.071);
+outline:none;
+border-style: none;
+font-size: 1.2rem;
+
+
+}
+.in3 input{
+   
+}
+.ena{
+    display: flex;
+    justify-content: space-between;
+}
+.en1{
+    height: 4rem;
+    width: 18rem;
+    /* background-color:  rgba(0, 0, 0, 0.071); */
+    outline:none;
+    border-style: none;
+    font-size: 1.2rem;
+    margin-right: 2.6rem;
+
+}
+.en2 input{
+    height: 4rem;
+    width:18rem;
+    background-color:  rgba(0, 0, 0, 0.071);
+    outline:none;
+    border-style: none;
+    font-size: 1.2rem;
+
+}
+.enb{
+    display: flex;
+    justify-content: space-between;
+}
+.en3 input{
+    height: 4rem;
+    width: 18rem;
+    background-color:  rgba(0, 0, 0, 0.071);
+    outline:none;
+    border-style: none;
+    font-size: 1.2rem;
+}
+.en4 input{
+    height: 4rem;
+    width: 18rem;
+    background-color: rgba(0, 0, 0, 0.071);
+    outline:none;
+    border-style: none;
+    font-size: 1.2rem;
+}
+
+select{
+    padding: 15px;
+    width: 17rem;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.112);
+    border-style: none;
+}
+
+.in4 button{
+    height: 4rem;
+width: 38rem;
+outline:none;
+background-color: orange;
+color: white;
+font-size: 1.2rem;
+border-style: none;
+}
+                                            /* four boxes */
+.boxes{
+
+}
+
+ .fourboxes{
+     /* background-color: gray;  */
+     display: flex;
+    justify-content: space-around; 
+    margin-top: 2rem;
+    margin: 0% auto;
+    margin-top: 5rem;
+
+}
+.box1{
+    height: 20rem;
+    width: 23rem;
+    font-size: 2rem;
+ /* background-color: antiquewhite;  */
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.box1 button{
+    border-style: none;
+    background-color: white;
+    color: red;
+    font-size: 1rem;
+    cursor: wait;
+}
+.box2{
+     background-color: aqua; 
+     height: 20rem;
+    width: 17rem;
+    background-image: url(gb1\ \(1\).jpg);
+    background-size: cover; 
+    
+
+}
+
+
+.box2 h1{
+    color: white;
+    text-align: center;
+    top: 18rem;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.541);
+    height: 2rem;
+
+}
+.box3{ 
+     background-color: aquamarine; 
+    height: 20rem;
+    width: 19rem;
+    background-image: url(gb1\ \(19\).jpg);
+    background-size: cover;
+}
+
+
+.box3 h1{
+    color: white;
+    text-align: center;
+    top: 18rem;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.541);
+    height: 2rem;
+
+}
+.box4{
+     background-color: beige; 
+ height: 20rem;
+    width: 17rem;
+    background-image: url(gb1\ \(23\).jpg);
+    background-size: cover;
+}
+
+.box4 h1{
+    color: white;
+    text-align: center;
+    top: 18rem;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.541);
+    height: 2rem;
+
+}
+
+.wholeboxes{
+display: flex;
+margin: 0% auto;
+}
+
+.threeboxes{
+    margin: 0% auto;
+}
+.bo1{
+    height: 15rem;
+    width: 19rem;
+    background-color: blue;
+    margin-top: 0.5rem;
+    background-image: url(gb1\ \(17\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bo1 h1{
+    color: white;
+    text-align: center;
+    top: 13rem;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.541);
+    height: 2rem;
+
+}
+.bo2{
+    height: 15rem;
+    width: 19rem;
+    background-color: red;
+    margin-top: 0.5rem;
+    background-image: url(gb1\ \(16\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bo2 h1{
+    color: white;
+    text-align: center;
+    top: 13rem;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.541);
+    height: 2rem;
+
+}
+.bo3{
+    height: 15rem;
+    width: 19rem;
+    background-color: yellow;
+    margin-top: 0.5rem;
+    background-image: url(cloud.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bo3 h1{
+    color: white;
+    text-align: center;
+    top: 13rem;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.541);
+    height: 2rem;
+
+}
+
+
+.twoboxes{
+    margin: 0% auto;
+    justify-content:space-around;
+
+}
+.bx1{
+height: 22.8rem;
+width: 57rem;
+background-color: aquamarine;
+margin-top: 0.5rem;
+background-image: url(culture.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+.bx1 h1{
+    color: white;
+    text-align: center;
+    top: 21rem;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.541);
+    height: 2rem;
+
+}
+.bx2{
+    height: 22.8rem;
+    width: 57rem;
+    /* background-color:purple; */
+    margin-top: 0.5rem;
+    background-image: url(gb1\ \(14\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.bx2 h1{
+    color: white;
+    text-align: center;
+    top: 21rem;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.541);
+    height: 2rem;
+
+}
+
+.head{
+    height: 5rem;
+    width: auto;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 1rem;
+    
+}
+
+
+
+
+.threebox{
+display: flex;
+justify-content:space-evenly;
+margin-top: 2rem;
+
+
+}
+.threebox label:hover{
+    transition: all 1s;
+    /* background-color: black; */
+    color:black;
+    font-size: 40px;
+    cursor: pointer;
+}
+.boxa{
+    height: 70vh;
+    width:25%;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow:0px 0px 30px 0 gray;
+
+    /* background-image: url(i.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:40vh;
+    border-radius: 20px;
+     */
+
+}
+.boxa h1{
+        color: white;   
+        text-align: center;
+        bottom: 2.3rem;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.541);
+        height: 2rem;
+    
+
+}
+.boxa label{
+    font-size: 20px;
+    color: rgb(0, 174, 255);
+    margin: 0 auto; 
+}
+
+
+.boxb{
+    height:70vh;
+    width:25%;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow:0px 0px 30px 0 gray;
+
+    
+
+}
+.boxb h1{
+    color: white;
+    text-align: center;
+    bottom: 2.3rem;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.555);
+    height: 2rem;
+
+
+}
+.boxb label{
+    font-size: 20px;
+    margin: 0 auto; 
+    color: rgb(0, 174, 255);
+}
+
+.boxc{
+    height: 70vh;
+    width:25%;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow:0px 0px 30px 0 gray;
+   
+    
+
+}
+.boxc h1{
+    color: white;
+    text-align: center;
+    bottom: 2.3rem;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.541);
+    height: 2rem;
+
+
+}
+
+.boxc label{
+    font-size: 20px;
+    color: rgb(0, 174, 255);
+    margin: 0 auto; 
+
+}
+
+
+                                                /* new section start */
+.hid {
+  /* background-color: red; */
+  margin-left: 5rem;
+  margin-top: 3rem;
+  font-size: 1.5    rem;
+  width:30rem;
+  
+}
+
+.pictex1{
+   
+    height: 23rem;
+    width: 70rem;
+
+    margin: 0% auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow:0px 0px 30px 0 gray;
+    border-radius: 2rem;
+}
+    .pt1{
+        height: 20rem;
+        width:30rem;
+        /* background-color: blue; */
+        margin-top: 1.5rem;
+        background-image: url(gb1\ \(14\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .pt2{
+        height: 20rem;
+        width:30rem;
+        /* background-color:aqua; */
+        margin-top: 1.5rem;
+    }
+.pt2 b{
+    font-size: 1.3rem;
+}
+.pt2 p{
+    font-size: 1.7rem;
+}
+.pt2 label{
+ color: red;
+ cursor: pointer; 
+}
+.pt2 label:hover{
+
+color: blue;
+}
+
+
+    
+.pictex2{
+   
+    height: 23rem;
+    width: 70rem;
+    
+    margin: 0% auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow:0px 0px 30px 0 gray;
+    border-radius: 2rem;
+    
+}
+.px1{
+    height: 20rem;
+    width:30rem;
+    /* background-color: blue; */
+    margin-top: 1.5rem;
+}
+.px1 b{
+    font-size: 1.5rem;
+}
+.px1 p{
+    font-size: 1.7rem;
+}
+.px1 label{
+    color: red;
+    cursor: pointer;
+   }
+
+   .px1 label:hover{
+
+    color: blue;
+    }
+
+.px2{
+    height: 20rem;
+    width:30rem;
+    /* background-color:aqua; */
+    margin-top: 1.5rem;
+    background-image: url(gb1\ \(22\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}   
+
+
+video{
+margin-top: 10rem;
+margin-left: 3.4rem;
+height: 30rem;
+
+}
+
+.secondlast{
+    height: 15rem;
+    width: 78.9rem;
+    color:white;
+    /* background-color: gray; */
+    background-image: url(gb1\ \(27\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 4rem;
+}
+.indiv{
+    height: 9rem;
+    width: 25rem;
+    /* background-color: wheat; */
+    
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: 27rem;
+    
+    
+}
+.indiv h1{
+    font-size: 1.8rem;
+}
+.inpt{
+    font-size: 1.2rem;
+    background-color: transparent;
+    color:white ;
+    height: 3rem;
+    width: 25rem;
+    border: 0.1rem solid white;
+    
+}
+footer{
+    height: 15rem;
+    width: 78.7rem;
+    background-color: black;
+    border: 0.1rem solid white;
+    
+
+}
+.last{
+display: flex;
+justify-content: space-evenly;
+color: white;
+
+}
+.la1{
+cursor: pointer;
+}
+.la2{
+    cursor: pointer;
+}
+.la3{
+    cursor: pointer;
+}
+.la4{
+    cursor: pointer;
+}
+
+.developer{
+    /* height: 2.5rem; */
+    width: 78.9;
+    background-color: black;
+    font-family: system-ui;
+    padding: 1rem;
+    
+}
+.devi{
+display: flex;
+font-size: 0.7rem;
+justify-content: space-around;
+color: white;
+
+}
+
+   
